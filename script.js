@@ -9,22 +9,19 @@ $(document).ready(function() {
 	];
 	
 	(function (global) {
-		alert("sddd");
-		
 		$("#login-form").submit(function() {
+			alert("asdf");
 			var userVal = document.getElementById("username").value;
 			var passVal = document.getElementById("password").value;
 
 			for (var i = 0; i < users.length; i++) {
 				if (users[i].username === userVal && users[i].password === passVal) {
 					global.localStorage.setItem("logged-in", true);
-					alert("asdf");
-					document.location.href = "index.html";
 				}	
 				else {
 					global.localStorage.setItem("logged-in", false);
 				}
 			}
-		}, false);
-	}(window));
+		});
+	}(this));
 });
