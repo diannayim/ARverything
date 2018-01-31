@@ -16,7 +16,6 @@ $(document).ready(function() {
 			if (users[i].username === userVal && users[i].password === passVal) {
 				localStorage.setItem("loggedIn", "true");
 				window.location = "index.html";
-				alert("HELLO");
 			}	
 			else {
 				localStorage.setItem("loggedIn", "false");
