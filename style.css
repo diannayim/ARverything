@@ -1,12 +1,83 @@
-/* CSS Document */
+@font-face {
+	font-family: Exo-Light;
+	src: url('exo-2/Exo2-Light.otf');
+}
 
+@font-face {
+	font-family: Exo-Light;
+	font-style: italic;
+	src: url('exo-2/Exo2-LightItalic.otf');
+}
+
+@font-face {
+	font-family: Exo-Medium;
+	src: url('exo-2/Exo2-Medium.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	src: url('CODE/CODE Light.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	font-weight: bold;
+	src: url('CODE/CODE Bold.otf');
+}
+
+@font-face {
+	font-family: CODE;
+	src: url('CODE/CODE Light.otf');
+}
+
+body {
+	font-family: Exo-Light;
+}
 
 .navbar {
-	background-color: rgba(255, 134, 0, 0.5);
+	background-color: rgba(0,14,52,0.50);
 	transition: background-color 0.5s ease 0s;
 }
 
 .navbar.opaque {
-	background-color: rgba(255, 134, 0, 1);
+	background-color: rgba(0,14,52,1);
 	transition: background-color 0.5s ease 0s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: CODE;
+	font-weight: bold;
+}
+
+.lead {
+	font-family: CODE;
+	padding-top: 20px;
+	font-size: 38px;
+	font-weight: bold;
+	outline-color: black;
+}
+
+.section {
+	padding-bottom: 20px;
+}
+
+
+
+.nav-pills > .nav-item > .active {
+	border: solid 1px grey;
+	background-color: white;
+	color: blue;
+	border-radius: 0px;
+}
+
+.nav-pills.nav-item {
+	
+}
+
+.col-xl-3 {
+	padding-right: 0px;
+}
+
+.col-xl-9 {
+	border: solid 1px grey;
 }
