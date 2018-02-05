@@ -61,17 +61,16 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 20px;
 }
 
-
-
 .nav-pills > .nav-item > .active {
-	border: solid 1px grey;
 	background-color: white;
 	color: blue;
 	border-radius: 0px;
+	box-shadow: 2px 3px 5px #999;
 }
 
-.nav-pills.nav-item {
-	
+.nav-pills > .nav-item {
+	border: solid 1px grey;
+	background-color: rgba(182,199,255,0.3);
 }
 
 .col-xl-3 {
@@ -79,5 +78,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .col-xl-9 {
+	box-shadow: 2px 3px 5px #999;
 	border: solid 1px grey;
+	border-left: none;
+}
+
+.nav-link > img {
+	margin-left: 5px;
+}
+
+.btn {
+	border: solid 1px grey;
+}
+
+.w-100.active {
+	background-color: white;
+	transition: background-color 0.5s ease 0s;
 }

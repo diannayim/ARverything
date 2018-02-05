@@ -3,37 +3,119 @@
 <head>
 <meta charset="utf-8">
 <title>ARverything</title>
-	
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body>
-	<nav class="navbar opaque navbar-dark navbar-expand-lg fixed-top text-white">
-		<a class="navbar-brand" href="#"><img src="ARverything.png" alt="brand" width="45" height="30"></a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		
+<body style="margin-top: 70px; background-color: rgba(182,199,255,0.3)">
+	<nav class="navbar opaque navbar-dark navbar-expand-lg fixed-top text-white"> <a class="navbar-brand" href="#"><img src="ARverything.png" alt="brand" width="45" height="30"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Home <img src="open-iconic-master/png/home-4x.png" alt="home" width="16" height="16"></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="gallery.html">Gallery <img src="open-iconic-master/png/aperture-4x.png" alt="home" width="16" height="16"></a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="settings.html">Settings <img src="open-iconic-master/png/cog-4x.png" alt="home" width="16" height="16"></a>
-				</li>
+				<li class="nav-item"> <a class="nav-link" href="index.html">Home <img src="open-iconic-master/png/home-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="compendium.html">Compendium <img src="open-iconic-master/png/aperture-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item active"> <a class="nav-link" href="settings.html">Settings <img src="open-iconic-master/png/cog-4x.png" alt="home" width="16" height="16"></a> </li>
 			</ul>
-			
-			<span class="navbar-text" style="color: white">Welcome, Dianna Yim</span>
+			<span class="navbar-text" style="color: white">Welcome, Dianna Yim</span> </div>
+	</nav>
+	<div class="container">
+		<div class="row" >
+			<div class="col-xl-3 col-xs-12">
+				<ul class="nav nav-pills flex-column">
+					<li class="nav-item"> <a class="nav-link settings-link active" href="#" id="foodInformationTab">Food Information <img src="open-iconic-master/png/food.png" height="16" width="16"></a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="peopleInformationTab">People Analyzer</a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="objectInformationTab">Object Analysis</a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="notificationTab">Notification Manager</a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="interactionsTab">Interactions Manager</a> </li>
+				</ul>
+			</div>
+			<div class="col-xl-9 col-xs-12" style="background-color: white">
+				<div id="#content" style="padding-top: 10px; padding-left: 5px; padding-bottom: 10px">
+					<div id="foodInformation">
+						<h2>Food Information <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>What do you want to look at?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Food Quality</button>
+							<button type="button" class="btn w-100">Healthiness</button>
+							<button type="button" class="btn w-100">Price</button>
+							<button type="button" class="btn w-100">Food Content</button>
+						</div>
+					</div>
+
+					<div id="peopleInformation" style="display: none">
+						<h2>People Analyzer <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>What do you want to look at?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Personal Details</button>
+							<button type="button" class="btn w-100">Profession</button>
+							<button type="button" class="btn w-100">Captions</button>
+							<button type="button" class="btn w-100">Caliber</button>
+						</div>
+					</div>
+
+					<div id="objectInformation" style="display: none">
+						<h2>Object Analysis <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>What do you want to look at?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Object Details</button>
+							<button type="button" class="btn w-100">Place of Purchase</button>
+							<button type="button" class="btn w-100">Price</button>
+							<button type="button" class="btn w-100">Age</button>
+						</div>
+					</div>
+
+					<div id="notification" style="display: none">
+						<h2>Notification Manager <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>What do you want to look at?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Text Messages</button>
+							<button type="button" class="btn w-100">Calls</button>
+							<button type="button" class="btn w-100">Emails</button>
+							<button type="button" class="btn w-100">Weather Reports</button>
+							<button type="button" class="btn w-100">Traffic Reports</button>
+						</div>
+					</div>
+
+					<div id="interactions" style="display: none">
+						<h2>Interaction Manager <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>How do you want to interact with ARverything?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Voice</button>
+							<button type="button" class="btn w-100">Remote</button>
+							<button type="button" class="btn w-100">Gestures</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar opaque navbar-dark fixed-bottom navbar-expand-lg text-white">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bottomNavbar"> <span class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse" id="bottomNavbar">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"> <a class="nav-link" href="#">About <img src="open-iconic-master/png/info-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Legal <img src="open-iconic-master/png/box-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#">Jobs <img src="open-iconic-master/png/briefcase-4x.png" alt="home" width="16" height="16"></a> </li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/facebook.png" alt="home" width="30" height="30"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/instagram.png" alt="home" width="30" height="30"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/twitter.png" alt="home" width="30" height="30"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#l"><img src="open-iconic-master/png/tumblr.png" alt="home" width="30" height="30"></a> </li>
+			</ul>
 		</div>
 	</nav>
+	
+	<script src="navbar.js"></script>
+	<script src="settings.js"></script>
 </body>
 </html>
