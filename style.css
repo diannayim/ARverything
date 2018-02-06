@@ -10,8 +10,9 @@
 }
 
 @font-face {
-	font-family: Exo-Medium;
+	font-family: Exo-Light;
 	src: url('exo-2/Exo2-Medium.otf');
+	font-weight: bold;
 }
 
 @font-face {
@@ -77,10 +78,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding-right: 0px;
 }
 
-.col-xl-9 {
+.cover {
 	box-shadow: 2px 3px 5px #999;
 	border: solid 1px grey;
-	border-left: none;
 }
 
 .nav-link > img {
@@ -94,4 +94,24 @@ h1, h2, h3, h4, h5, h6 {
 .w-100.active {
 	background-color: white;
 	transition: background-color 0.5s ease 0s;
+}
+
+.card-title {
+	padding-top: 10px;
+}
+
+.border-dark {
+	border-radius: 0px;
+}
+
+.card-columns {
+	column-count: 2;
+}
+
+.card-img-top {
+	padding-bottom: 20px;
+}
+
+.capitalize {
+	text-transform: capitalize;
 }

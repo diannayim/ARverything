@@ -17,13 +17,54 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item"> <a class="nav-link" href="index.html">Home <img src="open-iconic-master/png/home-4x.png" alt="home" width="16" height="16"></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="compendium.html">Compendium <img src="open-iconic-master/png/aperture-4x.png" alt="home" width="16" height="16"></a> </li>
-				<li class="nav-item active"> <a class="nav-link" href="settings.html">Settings <img src="open-iconic-master/png/cog-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item active"> <a class="nav-link" href="compendium.html">Compendium <img src="open-iconic-master/png/aperture-4x.png" alt="home" width="16" height="16"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="settings.html">Settings <img src="open-iconic-master/png/cog-4x.png" alt="home" width="16" height="16"></a> </li>
 			</ul>
 			<span class="navbar-text" style="color: white">Welcome, Dianna Yim</span> </div>
 	</nav>
 	
-	<nav class="navbar opaque navbar-dark fixed-bottom navbar-expand-lg text-white">
+	<div class="container">
+		<div class="row" >
+			<div class="col-3">
+				<ul class="nav nav-pills flex-column">
+					<li class="nav-item"> <a class="nav-link settings-link active" href="#" id="foodInformationTab">Food <img src="open-iconic-master/png/food.png" height="16" width="16"></a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="peopleInformationTab">People <img src="open-iconic-master/png/people-4x.png" height="16" width="16"></a> </li>
+					<li class="nav-item"> <a class="nav-link settings-link" href="#" id="objectInformationTab">Objects <img src="open-iconic-master/png/chair.png" height="16" width="16"></a> </li>
+				</ul>
+			</div>
+			<div class="col-9 cover" style="background-color: white">
+				<div id="#content" style="padding-top: 10px; padding-left: 5px; padding-bottom: 10px">
+					<div id="foodInformation">
+						<h2>Food <img src="open-iconic-master/png/food.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<div class="card-columns" id="food">
+						</div>
+					</div>
+
+					<div id="peopleInformation" style="display: none">
+						<h2>People <img src="open-iconic-master/png/people-4x.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<div class="card-columns" id="people">
+						</div>
+					</div>
+
+					<div id="objectInformation" style="display: none">
+						<h2>Object Analysis <img src="open-iconic-master/png/chair.png" height="28" width="28"></h2>
+						<hr class="bg-dark">
+						<h6>What do you want to look at?</h6>
+						<div class="btn-group d-flex" role="group" aria-label="Basic example" style="width: 100%; text-align: center">
+							<button type="button" class="btn w-100">Object Details</button>
+							<button type="button" class="btn w-100">Place of Purchase</button>
+							<button type="button" class="btn w-100">Price</button>
+							<button type="button" class="btn w-100">Age</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<nav class="navbar opaque navbar-dark navbar-expand-lg text-white">
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bottomNavbar"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse" id="bottomNavbar">
 			<ul class="navbar-nav mr-auto">
@@ -32,15 +73,16 @@
 				<li class="nav-item"> <a class="nav-link" href="#">Jobs <img src="open-iconic-master/png/briefcase-4x.png" alt="home" width="16" height="16"></a> </li>
 			</ul>
 			<ul class="navbar-nav ml-auto">
-				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/facebook.png" alt="home" width="30" height="30"></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/instagram.png" alt="home" width="30" height="30"></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/twitter.png" alt="home" width="30" height="30"></a> </li>
-				<li class="nav-item"> <a class="nav-link" href="#l"><img src="open-iconic-master/png/tumblr.png" alt="home" width="30" height="30"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/facebook.png" alt="home" width="25" height="25"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/instagram.png" alt="home" width="25" height="25"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#"><img src="open-iconic-master/png/twitter.png" alt="home" width="25" height="25"></a> </li>
+				<li class="nav-item"> <a class="nav-link" href="#l"><img src="open-iconic-master/png/tumblr.png" alt="home" width="25" height="25"></a> </li>
 			</ul>
 		</div>
 	</nav>
 	
 	<script src="navbar.js"></script>
 	<script src="settings.js"></script>
+	<script src="compendium.js"></script>
 </body>
 </html>
