@@ -96,9 +96,9 @@ $(document).ready(function () {
 	}];
 	
 	var people = [ 
+		{ name: "derek.jpg", content: "Derek Alenius", age: "28", birthday: "02/05/2017", city: "Calgary, AB, Canada", profession: "Economist", phone: "xxx-xxx-xxxx", caliber: "10/10" }, 
 		{ name: "Allen.png", content: "Allen We", age: "28", birthday: "01/26/2017", city: "Calgary, AB, Canada", profession: "Computer Scientist", phone: "xxx-xxx-xxxx", caliber: "3/10" },
 		{ name: "Andrew.png", content: "Andrew Dong", age: "28", birthday: "08/21/2017", city: "Calgary, AB, Canada", profession: "Computer Scientist", phone: "xxx-xxx-xxxx", caliber: "5/10" }, 
-		{ name: "derek.jpg", content: "Derek Alenius", age: "28", birthday: "02/05/2017", city: "Calgary, AB, Canada", profession: "Economist", phone: "xxx-xxx-xxxx", caliber: "10/10" }, 
 		{ name: "John.png", content: "John Cajayon", age: "28", birthday: "01/01/2017", city: "Calgary, AB, Canada", profession: "Economist", phone: "xxx-xxx-xxxx", caliber: "8/10" }, 		
 		{ name: "rachel.jpg", content: "Rachel Lee", age: "28", birthday: "12/28/2017", city: "Calgary, AB, Canada", profession: "Electrical Engineer", phone: "xxx-xxx-xxxx", caliber: "10/10" },
 		{ name: "Shelly.png", content: "Shelly Sicat", age: "28", birthday: "11/25/2017", city: "Calgary, AB, Canada", profession: "Computer Scientist", phone: "xxx-xxx-xxxx", caliber: "6/10" }, 	
