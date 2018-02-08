@@ -11,7 +11,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
-<body style="margin-top: 50px">
+<body style="margin-top: 50px; max-width: 100%; overflow-x: hidden">
 	<nav class="navbar opaque navbar-dark navbar-expand-lg fixed-top text-white" id="navbar"> <a class="navbar-brand" href="#"><img src="ARverything.png" alt="brand" width="45" height="30"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"> <span class="navbar-toggler-icon"></span> </button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -23,59 +23,38 @@
 			<span class="navbar-text" style="color: white">Welcome, Dianna Yim</span> </div>
 	</nav>
 	
-	<div class="jumbotron" style="height: 100vh; text-align: center; background-image: url('background.jpg')"> 
-		<img src="ARverything.png" alt="brand" style="max-height: 90%; max-width: 90%">
-		<p class="lead text-white">The world's leading AR overlay, providing you with everything you need.</p>
+	<div class="jumbotron" style="height: 100vh; text-align: center; background-image: url('background.jpg'); border-radius: 0px; padding-bottom: 0px; margin-bottom: 0px"> 
+		<img src="ARverything.png" alt="brand" style="max-height: 80%; max-width: 90%">
+		<p class="lead text-white">The world's leading AR display, providing you with everything you need.</p>
 	</div>
 	
-	<div class="container">
-		<div class="section">
-			<hr class="bg-dark">
-			<h1>Food <img src="open-iconic-master/png/food.png" alt="food" width="32" height="32"></h1>
-			<hr class="bg-dark">
-			<blockquote class="blockquote mb-0">
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-				<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
-			</blockquote>
-			<div class="row align-items-center">
-				<div class="col-sm-7 col-xs-12">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/koMdnV5sEr4" allowfullscreen></iframe>
-					</div>
-				</div>
-				<div class="col-sm-5 col-xs-12">ARverything provides details about food, making nothing questionable about what goes into your body. Content, calories, freshness, price - all easily accessible 
-					through the use of our technology! </div>
+	<div class="container-fluid">
+		<div class="header col-12">
+			<h1 class="align-middle">Who Are We?</h1>
+		</div>
+		<div id="whoAreWe" class="row align-items-center body-content">
+			<div class="col-7" style="text-align: center;">
+				<img src="contacts.jpg">
+			</div>
+			<div class="col-5">
+				<h3>ARverything provides all the information that you need, only when you need it.</h3>
+				<p>Our system allows users to look at food, people, and objects to gather necessary information on the fly throughout their day. However, to ensure that the user is never overloaded with data, our focus sensor allows you to pick and choose what to see, only when you need it so ARverything is an additiona to your life, rather a hinderance. With this, ARverything is a world-class augmented reality overlay, customized to each individual user. </p>
 			</div>
 		</div>
-		<div class="section">
-			<hr class="bg-dark">
-			<h1>Mass Labelling <img src="open-iconic-master/png/align-center-4x.png" alt="food" width="32" height="32"></h1>
-			<hr class="bg-dark">
-			<div class="row align-items-center">
-				<div class="col-sm-5 col-xs-12"> Every object can be labelled with information about where it's </div>
-				<div class="col-sm-7 col-xs-12">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZIuL4BLwOPc" allowfullscreen></iframe>
-					</div>
-				</div>
+		
+		<div class="row align-items-center body-content">
+			<h2 class="col-12" style="text-align: center">Features</h2>
+			<div class="col-7" style="text-align: center;">
+				<img src="contacts.jpg">
 			</div>
-		</div>
-		<div class="section">
-			<hr class="bg-dark">
-			<h1>Conversations <img src="open-iconic-master/png/chat-4x.png" atl="chat" width="32" height="32"></h1>
-			<hr class="bg-dark">
-			<div class="row align-items-center">
-				<div class="col-sm-7 col-xs-12">
-					<div class="embed-responsive embed-responsive-16by9">
-						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/SvHOoXDgu70" allowfullscreen></iframe>
-					</div>
-				</div>
-				<div class="col-sm-5 col-xs-12"> Having conversations with someone and having issues paying attention? Talking to someone who speaks a different language, or has a difficult accent to understand? <br>
-					With ARverything, day-to-day conversations are immediately translated and played as captions next to the person! </div>
+			<div class="col-5">
+				<h3>ARverything provides all the information that you need, only when you need it.</h3>
+				<p>Our system allows users to look at food, people, and objects to gather necessary information on the fly throughout their day. However, to ensure that the user is never overloaded with data, our focus sensor allows you to pick and choose what to see, only when you need it so ARverything is an additiona to your life, rather a hinderance. With this, ARverything is a world-class augmented reality overlay, customized to each individual user. </p>
 			</div>
 		</div>
 	</div>
 	
 	<script src="navbar.js"></script>
+	<script src="index.js"></script>
 </body>
 </html>

@@ -58,10 +58,6 @@ h1, h2, h3, h4, h5, h6 {
 	outline-color: black;
 }
 
-.section {
-	padding-bottom: 20px;
-}
-
 .nav-pills > .nav-item > .active {
 	background-color: white;
 	color: blue;
@@ -115,4 +111,28 @@ h1, h2, h3, h4, h5, h6 {
 
 .capitalize {
 	text-transform: capitalize;
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.header {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: linear-gradient(white 40%, #BDBDBD);
+	text-align: center;
+}
+
+.blockquote > p {
+	font-family: CODE;
+	font-size: 50px;
+	
+}
+
+.body-content {
+	padding: 30px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
