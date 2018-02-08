@@ -102,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card-columns {
-	column-count: 2;
+	column-count: 3;
 }
 
 .card-img-top {
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
 	padding-top: 30px;
 	padding-bottom: 30px;
-	background: linear-gradient(white 40%, #BDBDBD);
+	background: linear-gradient(rgba(0,14,52,0.40), white, rgba(0,14,52,0.40));
 	text-align: center;
 }
 
@@ -132,7 +132,26 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .body-content {
-	padding: 30px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding: 50px;
+}
+
+.embed-responsive {
+	border-radius: 0px;
+}
+
+.title-header {
+	padding-top: 40px;
+}
+
+.embed-responsive-item {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.border-secondary {
+	border-radius: 0px;
+}
+
+.inline-img {
+	padding-left: 10px;
 }
